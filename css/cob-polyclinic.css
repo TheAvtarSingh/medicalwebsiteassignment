@@ -1,0 +1,285 @@
+/* colgroup  */
+
+.back-col1 {
+  background-color: rgb(106, 157, 252) !important;
+}
+
+.back-col2 {
+  background-color: #3a7fff !important;
+}
+
+.back-col3 {
+  background-color: rgb(38, 114, 255) !important;
+}
+
+.back-col4 {
+  background-color: rgb(0, 86, 247) !important;
+}
+
+.txt-poly {
+  color: rgb(58, 127, 255) !important;
+}
+
+.txt-poly1 {
+  color: rgb(58, 127, 255) !important;
+}
+.txt-poly2{
+    color: #4e4ecc;
+}
+.col-white {
+  background-color: rgba(255, 255, 255, 0.515);
+}
+.col-white1{
+  color: white !important;
+}
+
+/* colgroup  */
+
+/* -------------------------- */
+
+/* padding margin  */
+
+.m-0 {
+  padding: 0 !important;
+}
+
+.p-0 {
+  padding: 0 !important;
+}
+
+/* padding margin  */
+
+/* <!-- SERVICES-3--!> */
+
+.height-25 {
+  height: 25rem;
+}
+
+.f-icon {
+  font-size: 3.45rem;
+  color: white;
+  line-height: 113px;
+}
+
+/* <!-- SERVICES-3--!> */
+
+/* ------------x------------ */
+
+/* header snippet  */
+
+.flex-hstrip {
+  display: flex !important;
+  justify-content: space-between;
+}
+
+.width-100 {
+  width: 100%;
+  margin: 0;
+  max-width: none;
+}
+
+.wid-auto {
+  width: auto !important;
+}
+
+/* header snippet  */
+
+/* ----------X------------ */
+
+/* header div width/background  */
+
+.height {
+  height: 700px !important;
+}
+
+.backround-img {
+  background-image: url(../images/IMG_2211.jpg) !important;
+}
+
+.mt-60 {
+  margin-top: 60px !important;
+}
+
+.custom-container {
+  margin-right: 10px !important;
+  padding-right: 30px !important;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.txt-right {
+  text-align: left !important;
+}
+
+/* header div width  */
+
+/* --------------X------------ */
+
+/* <!-- LOGO IMAGE --> */
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 9px 0px 0px;
+}
+
+.m-logo {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  padding: 0px !important;
+}
+
+/* <!-- LOGO IMAGE --> */
+
+/* hover property */
+
+.wsmenu > .wsmenu-list > li > a:hover {
+  color: #6464ff;
+}
+
+.doctor-1 .item-overlay:hover {
+  background: #5959e7;
+}
+
+.doctor-1 .item-overlay {
+  background: #5959e7;
+}
+.blue-hover:hover{
+    background-color:#6464ff !important;
+    border-color: #6464ff !important;
+}
+.border-0{
+    border: none;
+}
+.btn-poly:hover{
+    background-color: #6464ff !important;
+}
+#scrollUp:hover{
+    background-color: #6464ff !important;
+}
+/* hover property */
+
+
+/* why us  */
+.medicine-background{
+  background-image: url(../images/images/clinic-images/_DSC0089.JPG) !important;
+}
+/* why us  */
+
+/* statistics */
+.flex-center{
+    justify-content: center!important;
+}
+.statistic-background{
+  background-image: url(../images/images/clinic-images/_DSC0056.JPG) !important;
+}
+/* statistics */
+
+/* mediqueue */
+.medq-content{
+    flex: none;
+    max-width: none !important;
+}
+/* mediqueue */
+
+
+/* visitor info  */
+.banner-polyclinic-halfmorph{
+  background: url(../images/vsitor-info2.png) !important;
+}
+/* visitor info  */
+
+/* vision  */
+.vision-background{
+  background-image: url(../images/images/clinic-images/_DSC0063.JPG) !important;
+}
+
+/* vision  */
+
+/* service at home */
+.lineheight-25{
+    line-height: 25px !important;
+}
+.font-5{
+    font-size:5rem;
+}
+.height-37{
+    height: 37rem;
+}
+/* service at home */
+
+/* footer mail  */
+.footer-mail{
+    display: flex;
+    align-items: center;
+}
+.txt-deco-none{
+    text-decoration: none !important;
+}
+/* footer mail  */
+
+/* media quary */
+@media (max-width:575px){
+  .height-25{
+    height: 30rem;
+  }
+  .height-37{
+    height: 43rem;
+  }
+  .height{
+    height: 100% !important;
+  }
+
+  .backround-img{
+    background-position: -300px;
+  }
+  .custom-container{
+   position: absolute;
+   top: -90px;
+  }
+  .mob-grid{
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+  .mob-btn{
+    font-size: .9rem !important;
+    padding: 10px 5px!important;
+  }
+
+}
+@media (min-width:1441px){
+  .banner-polyclinic-halfmorph{
+    background-repeat: no-repeat !important;
+    background-size: cover!important;
+  }
+  .cob-container{
+    margin-left: 5rem !important;
+  }
+  .wsmainwp{
+    max-width: 100% !important;
+  }
+  .mr-43{
+    margin-right: 17rem !important;
+  }
+  .pr-0{
+   padding-right: 0 !important;
+  }
+}
+@media (min-width:1072px){
+  .wsmainwp{
+    max-width: 100% !important;
+  }
+  .mr-43{
+    margin-right: 3rem;
+  }
+  .pr-0{
+   padding-right: 0 !important;
+  }
+}
+
+/* media quary */
